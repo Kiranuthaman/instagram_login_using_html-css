@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    border: 1px solid rgb(198, 197, 197);
+    padding: 25px;
+    background: rgb(255, 255, 255);
+    font-family: sans-serif;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 12px;
+}
+.content{
+    padding: 5px 5px;
+
+}
+.content img{
+    width: 190px;
+    margin-bottom: 50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px ;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+
+}
+.content label{
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 30px;
+    position: relative;
+    border: 1px solid rgb(210, 209, 209);
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.content span{
+    position: absolute;
+    left: 5%;
+    font-size: 12px;
+    font-family:sans-serif;
+    color: rgb(120, 120, 120);
+
+}
+.content input{
+    border: 0;
+    background: transparent;
+    padding: 9px 8px 7px 8px;
+    width: 100%;
+
+}
+.container button{
+    background-color: rgb(41, 182, 238);
+    border: 0;
+    padding: 10px 15px;
+    color: aliceblue;
+    border-radius: 9px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family:sans-serif;
+
+}
+.forgot-buttons button{
+         background: none;
+         align-items: center;
+         justify-content: center;
+         display: flex;
+         color: rgb(48, 48, 161);
+         font-size: 13px;
+         font-family:sans-serif;
+}
+.forgot-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5px;
+    margin-top: 5px;
+}
+#seperator{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 300;
+    font-family:sans-serif;
+    
+
+}
+
+#seperator p:nth-child(2){
+    font-size: 12px;
+    font-weight: 600;
+    color:  rgb(161, 162, 162) ;
+}
+
+#seperator p:nth-child(1),
+#seperator p:nth-child(3){
+    width: 40%;
+    height: 1px;
+    border: 1px solid rgb(230, 230, 230);
+}
+#font{
+    font-size: 12px;
+    color: rgb(120, 120, 120);
+
+}
+.two{
+    align-items: center;
+    justify-content: center;
+   margin-top: 9px;
+   border: 1px solid rgb(185, 185, 185);
+   padding: 20px 64px;
+   color: rgb(120, 120, 120);
+
+   
+}
+
+#Log a{
+    text-decoration: none;
+    color:#385185;
+    font-size: 15px;
+    font-family: Arial,serif;
+}
+
+.two a{
+    text-decoration: none;
+    color: rgb(120, 120, 120);
+}
+
+.three{
+    align-items: center;
+    justify-content: center;
+}
+.three p{
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.three img{
+    width: 120px;
+    justify-content: space-between;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.four{
+
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.four span{
+    margin-right: 10px;
+    font-size: 12px;
+    color: rgb(161, 162, 162);
+    cursor: pointer;
+    font-family:sans-serif;
+}
+.img1{
+    height: 34px;
+}
+footer{
+    margin-top: 20px;
+    font-family:sans-serif;
+    font-size: 12px;
+    color: rgb(161, 162, 162);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+footer select{
+    border: 0;
+    color: rgb(161, 162, 162);
+    font-family:sans-serif;
+}
+
